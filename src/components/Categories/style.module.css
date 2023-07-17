@@ -1,0 +1,20 @@
+.nav li{
+    width: 16%;
+}
+
+.nav p {
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.nav img{
+    aspect-ratio: 1/1;
+    background: linear-gradient(white,var(--greenPastelLight));
+    border-radius: 50%;
+    filter: drop-shadow(2px 2px 5px #616161);
+    transition-duration: 1s;
+}
+
+.nav img:hover{
+    transform: scale(1.1);
+}

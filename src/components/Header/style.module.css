@@ -1,0 +1,26 @@
+.header {
+    background-color: var(--greenPastelLight);
+
+    height: 25vh;
+}
+
+.header>img {
+    object-fit: contain;
+    max-height: 100%;
+    margin: .5em 0;
+}
+
+.divider{
+    height: 1.5vh;
+
+    background: linear-gradient(90deg, var(--greenPastelLight),var(--greenPastelDark));
+}
+
+.btn{
+    margin-left: -2em;
+}
+
+.iconContainer>*{
+    transform: scale(2);
+    cursor: pointer;
+}
