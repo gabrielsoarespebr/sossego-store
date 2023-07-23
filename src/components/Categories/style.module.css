@@ -9,10 +9,12 @@
 
 .nav img{
     aspect-ratio: 1/1;
-    background: linear-gradient(white,var(--greenPastelLight));
+    background: linear-gradient(white,var(--orangePastelDark));
     border-radius: 50%;
     filter: drop-shadow(2px 2px 5px #616161);
     transition-duration: 1s;
+
+    object-fit: contain;
 }
 
 .nav img:hover{

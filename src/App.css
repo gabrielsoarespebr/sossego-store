@@ -1,9 +1,10 @@
 @import url(https://db.onlinewebfonts.com/c/088f292cf151a6e496fc8cdc5441b3e3?family=Lovelo-Black);
 
 :root {
-  --greenBg: #edfdec;
-  --greenPastelLight: #C3EDC0;
-  --greenPastelDark: #5F895D;
+  --grayBg: #EFEEEA;
+  --beigePastelLight: #F9E0BB;
+  --redPastelDark: #884A39;
+  --orangePastelDark: #DF9A5F;
 
   --fontPrimary: "Lovelo-Black", Arial, Helvetica, sans-serif;
 }

@@ -1,4 +1,4 @@
-import logoGreen from '../../assets/images/logoGreenCrop.png'
+import logo from '../../assets/images/logo.png'
 import style from './style.module.css'
 import { ImSearch } from 'react-icons/im'
 import { FaCartShopping } from 'react-icons/fa6'
@@ -9,7 +9,7 @@ export const Header = () => {
     return (
         <>
             <header className={`${style.header} flex justify-around items-center`}>
-                <img src={logoGreen} alt="logo" />
+                <img src={logo} alt="logo" />
                 <div>
                     <input className='rounded-xl h-10 p-5' type="text" name="" id="" placeholder='pesquise' />
                     <button className={style.btn}><ImSearch /></button>

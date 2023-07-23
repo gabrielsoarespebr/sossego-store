@@ -9,6 +9,6 @@ html{
 body{
   margin: 0;
 
-  color: var(--greenPastelDark);
-  background-color: var(--greenBg);
+  color: var(--redPastelDark);
+  background-color: var(--grayBg);
 }
